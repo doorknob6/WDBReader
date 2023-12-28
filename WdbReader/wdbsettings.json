@@ -1,0 +1,689 @@
+{
+  "WdbReaderOptions": {
+    "WdbOptions": [
+      {
+        "FileName": "itemcache.wdb",
+        "HeaderOptions": {
+          "Signature": "WIDB",
+          "Version": 5875,
+          "RecordOptions": [
+            {
+              "Name": "Signature",
+              "DataType": "StringType",
+              "Length": 4,
+              "IsReversed": true
+            },
+            {
+              "Name": "Version",
+              "DataType": "IntegerType"
+            },
+            {
+              "Name": "Locale",
+              "DataType": "StringType",
+              "Length": 4,
+              "IsReversed": true
+            },
+            {
+              "Name": "RecordSize",
+              "DataType": "IntegerType"
+            },
+            {
+              "Name": "RecordVersion",
+              "DataType": "IntegerType"
+            }
+          ]
+        },
+        "RecordLengthRecordName": "RecordLength",
+        "RecordOptions": [
+          {
+            "Name": "Identifier",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "RecordLength",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "ItemClass",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "ItemSubClass",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "NameOne",
+            "DataType": "StringNullType"
+          },
+          {
+            "Name": "NameTwo",
+            "DataType": "StringNullType"
+          },
+          {
+            "Name": "NameThree",
+            "DataType": "StringNullType"
+          },
+          {
+            "Name": "NameFour",
+            "DataType": "StringNullType"
+          },
+          {
+            "Name": "DisplayId",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Quality",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Flags",
+            "DataType": "BitMaskType",
+            "Length": 4
+          },
+          {
+            "Name": "BuyPrice",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "SellPrice",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "InventorySlot",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "AllowableClass",
+            "DataType": "BitMaskType",
+            "Length": 4
+          },
+          {
+            "Name": "AllowableRace",
+            "DataType": "BitMaskType",
+            "Length": 4
+          },
+          {
+            "Name": "ItemLevel",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "RequiredLevel",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "RequiredSkill",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "RequiredSkillRank",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "RequiredSpell",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "RequiredHonorRank",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "RequiredCityRank",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "RequiredReputationFaction",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "RequiredReputationRank",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "MaxCount",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Stackable",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "ContainerSlots",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Stat1Id",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Stat1Value",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Stat2Id",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Stat2Value",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Stat3Id",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Stat3Value",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Stat4Id",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Stat4Value",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Stat5Id",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Stat5Value",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Stat6Id",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Stat6Value",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Stat7Id",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Stat7Value",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Stat8Id",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Stat8Value",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Stat9Id",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Stat9Value",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Stat10Id",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Stat10Value",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Damage1Min",
+            "DataType": "FloatType"
+          },
+          {
+            "Name": "Damage1Max",
+            "DataType": "FloatType"
+          },
+          {
+            "Name": "Damage1Type",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Damage2Min",
+            "DataType": "FloatType"
+          },
+          {
+            "Name": "Damage2Max",
+            "DataType": "FloatType"
+          },
+          {
+            "Name": "Damage2Type",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Damage3Min",
+            "DataType": "FloatType"
+          },
+          {
+            "Name": "Damage3Max",
+            "DataType": "FloatType"
+          },
+          {
+            "Name": "Damage3Type",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Damage4Min",
+            "DataType": "FloatType"
+          },
+          {
+            "Name": "Damage4Max",
+            "DataType": "FloatType"
+          },
+          {
+            "Name": "Damage4Type",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Damage5Min",
+            "DataType": "FloatType"
+          },
+          {
+            "Name": "Damage5Max",
+            "DataType": "FloatType"
+          },
+          {
+            "Name": "Damage5Type",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "ResistPhysical",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "ResistHoly",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "ResistFire",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "ResistNature",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "ResistFrost",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "ResistShadow",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "ResistArcane",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "WeaponDelay",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "AmmoType",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "RangeModifier",
+            "DataType": "FloatType"
+          },
+          {
+            "Name": "Spell1Id",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell1TriggerId",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell1Charges",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell1Cooldown",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell1CategoryId",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell1CategoryCooldown",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell2Id",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell2TriggerId",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell2Charges",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell2Cooldown",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell2CategoryId",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell2CategoryCooldown",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell3Id",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell3TriggerId",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell3Charges",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell3Cooldown",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell3CategoryId",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell3CategoryCooldown",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell4Id",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell4TriggerId",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell4Charges",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell4Cooldown",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell4CategoryId",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell4CategoryCooldown",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell5Id",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell5TriggerId",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell5Charges",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell5Cooldown",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell5CategoryId",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Spell5CategoryCooldown",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "BondId",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Description",
+            "DataType": "StringNullType"
+          },
+          {
+            "Name": "BookTextId",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "BookPages",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "BookStationaryId",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "BeginQuestId",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "LockPickTalent",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "MaterialId",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "SheathId",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "RandompropertyId",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "BlockValue",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "ItemSetId",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "DurabilityValue",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "ItemAreaId",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "ItemMapId",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "BagFamily",
+            "DataType": "IntegerType"
+          }
+        ]
+      },
+      {
+        "FileName": "gameobjectcache.wdb",
+        "HeaderOptions": {
+          "Signature": "WGOB",
+          "Version": 5875,
+          "RecordOptions": [
+            {
+              "Name": "Signature",
+              "DataType": "StringType",
+              "Length": 4,
+              "IsReversed": true
+            },
+            {
+              "Name": "Version",
+              "DataType": "IntegerType"
+            },
+            {
+              "Name": "Locale",
+              "DataType": "StringType",
+              "Length": 4,
+              "IsReversed": true
+            },
+            {
+              "Name": "RecordSize",
+              "DataType": "IntegerType"
+            },
+            {
+              "Name": "RecordVersion",
+              "DataType": "IntegerType"
+            }
+          ]
+        },
+        "RecordLengthRecordName": "RecordLength",
+        "RecordOptions": [
+          {
+            "Name": "Identifier",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "RecordLength",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "ObjectType",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "DisplayId",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "NameOne",
+            "DataType": "StringNullType"
+          },
+          {
+            "Name": "NameTwo",
+            "DataType": "StringNullType"
+          },
+          {
+            "Name": "NameThree",
+            "DataType": "StringNullType"
+          },
+          {
+            "Name": "NameFour",
+            "DataType": "StringNullType"
+          },
+          {
+            "Name": "Unknown1",
+            "DataType": "StringNullType"
+          },
+          {
+            "Name": "Data00",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data01",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data02",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data03",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data04",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data05",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data06",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data07",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data08",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data09",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data10",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data11",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data12",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data13",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data14",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data15",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data16",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data17",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data18",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data19",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data20",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data21",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data22",
+            "DataType": "IntegerType"
+          },
+          {
+            "Name": "Data23",
+            "DataType": "IntegerType"
+          }
+        ]
+      }
+    ]
+  }
+}
